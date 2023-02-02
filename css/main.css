@@ -1,6 +1,11 @@
 nav li {
     display: inline;
 }
+
+#logo {
+    width: 25px;
+    height: 25px;
+}
 table, th, td {
     border-style: solid;
     border-radius: 2px;
