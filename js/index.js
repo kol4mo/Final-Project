@@ -2,7 +2,7 @@ var count = 0;
 document.querySelector("#img").src = "./images/Pic_1.jfif";
 var desc = document.querySelector("#img-Desc")
 desc.textContent = "Our most recent design, the NerveGear X"
-setInterval(slideShow, 10000);
+setInterval(slideShow, 5000);
 function slideShow() {
     switch (count){
         case 0:
