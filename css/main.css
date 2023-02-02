@@ -29,10 +29,12 @@ p{
     font-size: large;
     margin-top: 40px;
     margin-bottom: 40px;
+    text-align: center;
 }
 h1, h2, h3 {
     color:skyblue;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 tr:hover {
     background-color: rgb(102, 21, 209);

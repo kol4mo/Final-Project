@@ -7,6 +7,8 @@ fetch("http://quotes.rest/qod.json")
     .then((data) => {
         console.log(data)
         var Quote = document.querySelector("#Quote")
-        Quote.textContent = data.Quote;     
+        Quote.textContent = data.contents.quotes[0].quote;
+        document.body.style.backgroundImage = data.contents.quotes[0].background;
+
     }
 )
